@@ -12,7 +12,7 @@ Before training the model, data preprocessing steps such as tokenization and pad
 
 ## Model
 
-The model consists of an embedding layer and a series of dense layers with dropout regularization. The final layer uses a sigmoid activation function to output a probability value between 0 and 1, with 0 indicating a genuine headline and 1 indicating a fake headline.
+The model consists of an embedding layer and a series of dense layers. The final layer uses a sigmoid activation function to output a probability value between 0 and 1, with 0 indicating a genuine headline and 1 indicating a fake headline.
 
 ## Training
 
